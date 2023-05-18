@@ -12,6 +12,7 @@ body{
 }
 
 .container{
+    position: relative;
     background-color: #d9d9d9;
     text-decoration: none;
     font-family: Inter;
@@ -20,6 +21,13 @@ body{
     padding-top: 30px;
 }
 
+#home{
+    position: absolute;
+    left: 4px;
+    top: 4px;
+    width: 30px;
+    height: 30px;
+}
 
 table{
     padding-top: 30px;
